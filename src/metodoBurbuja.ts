@@ -19,12 +19,7 @@ function cargarPersonas(
 }
 
 //Funcion para imprimir por consola datos de ingreso y salida
-function mostrarDatos(
-  nombres: string[],
-  años: number[],
-  altura: number[],
-  dimensionArray: number
-) {
+function mostrarDatos(nombres: string[],años: number[],altura: number[],dimensionArray: number) {
   let i: number;
   for (i = 0; i < dimensionArray; i++) {
     console.log(`Nombre: ${nombres[i]}
