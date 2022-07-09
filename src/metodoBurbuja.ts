@@ -49,8 +49,8 @@ function comparar(años: number[], altura: number[], i: number, j: number) {
 }
 
 // Se usa una variable auxiliar para guardar el dato que se va a intercambiar
-function intercambiar(arreglo: number[], i: number, j: number) {
-  let aux: number;
+function intercambiar(arreglo: any, i: number, j: number) {
+  let aux: any;
   aux = arreglo[i];
   arreglo[i] = arreglo[j];
   arreglo[j] = aux;
